@@ -12,7 +12,7 @@ spec:
       labels:
         app: juiceshop
     spec:
-      imagePullSecrets:          # ← au même niveau que containers
+      imagePullSecrets:          
         - name: registry-credentials
       containers:
         - name: juiceshop
