@@ -16,6 +16,6 @@ spec:
         - name: registry-credentials
       containers:
         - name: juiceshop
-          image: registry.local:5443/juiceshop@sha256:fcade7e80dd543f662550b95f3d0e089331470c091439e6550a3ad6dfb5248c0
+          image: registry.local:5443/juiceshop@sha256:dfca71bb7144a1d3da0d2994be034791ca75d16d6dfc747632591c9a97e54431
           ports:
             - containerPort: 3000
